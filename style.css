@@ -4,17 +4,21 @@ body {
 
 .mobile-container {
   width: 350px;
-  height: 700px;
+  height: 750px;
   background-color: #ccc;
   border-radius: 10px;
 }
 
 .user-container {
-  margin: auto;
+  justify-content: center;
+  align-items: center;
   width: 320px;
-  height: 600px;
+  height: 677px;
   border: 1px solid red;
   border-radius: 10px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .first-section {
@@ -82,10 +86,10 @@ body {
 }
 
 .second-section {
-  background-color: ;
+  background-color: #f5f3f8;
   padding: 10px 10px;
   border: 1px solid black;
-  height: 550px;
+  height: 600px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
@@ -132,4 +136,26 @@ body {
 
 .message p {
   font-size: 15px;
+}
+
+.sixth-message {
+  top: 490px;
+  justify-content: space-around;
+}
+
+.send-message {
+  padding:0 5px;
+  background-color: #fff;
+  text-align: center;
+  justify-content: space-between;
+  width: 250px;
+  height: 30px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  top: 550px;
+  left: 30px;
+}
+
+.fa-chevron-circle-right {
+  color: black;
 }

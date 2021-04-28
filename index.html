@@ -20,8 +20,8 @@
 <body>
 
 <main class="container-fluid main-section">
-<div class="mobile-container shadow  bg-white">
-  <div class="user-container  shadow">
+<div class="mobile-container shadow  bg-white position-relative">
+  <div class="user-container  shadow position-absolute">
     <div class="first-section">
       <div class="white-space "></div>
       <div class="user-status ">
@@ -44,12 +44,12 @@
 
   
       </div>
-    <div class="second-section">
+    <div class="second-section position-relative">
       <div class="message first-message message-left">
-        <p>That sounds great. <br> I’d be happy with that.</p>
+        <p class="p-1">That sounds great. <br> I’d be happy with that.</p>
       </div>
       <div class="message second-message message-left">
-        <p>Could you send over some <br> pictures of your dog, please?</p>
+        <p class="p-1"> Could you send over some <br> pictures of your dog, please?</p>
       </div>
   
       <div class="dog-pictures message-right">
@@ -59,24 +59,34 @@
       </div>
         
       <div class="message third-message message-right">
-        <p>Here are a few pictures. She’s <br> a happy girl!</p>
+        <p class="p-1">Here are a few pictures. She’s <br> a happy girl!</p>
       </div>
   
       <div class="message forth-message message-right">
-        <p>Can you make it? </p>
+        <p class="p-1">Can you make it? </p>
       </div>  
         
       <div class="message forth-message message-left">
-        <p>She looks so happy! The time <br> we discussed works. How  <br> long shall I take her out for? </p> 
+        <p class="p-1">She looks so happy! The time <br> we discussed works. How  <br> long shall I take her out for? </p> 
       </div>
       
-      <div class="message fifth-message d-flex message-left">
-        <a class="message-icon"><i class="fal fa-circle"></i></a>
-        <p>30 minutes walk</p>
-        <p class="font-weight-bold">29$</p>
+      
+      <div class="message fifth-message message-left d-flex">
+        <a class="message-icon p-1"><i class="far fa-circle"></i></a>
+        <p class="p-1">30 minutes walk</p>
+        <p class="font-weight-bold p-1">29$</p>
+      </div> 
+      
+      <div class="message sixth-message message-left d-flex position-absolute mx-auto">
+        <a class="message-icon p-1"><i class="far fa-circle"></i></a>
+        <p class="p-1">1 hour walk</p>
+        <p class="font-weight-bold p-1">49$</p> 
+      </div> 
+
+      <div class="send-message d-flex  position-absolute">
+        <p class="text-secondary ">type message...</p>
+        <a href="#" ><i class="fas fa-chevron-circle-right"></i></a>
       </div>
-
-
       
         
      
