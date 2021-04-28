@@ -3,24 +3,22 @@ body {
 }
 
 .mobile-container {
-  width: 280px;
-  height: 450px;
+  width: 350px;
+  height: 600px;
   background-color: #ccc;
   border-radius: 10px;
 }
 
 .user-container {
   margin: auto;
-  width: 250px;
-  height: 400px;
-  background-color: #ccc;
+  width: 320px;
+  height: 550px;
   border: 1px solid violet;
   border-radius: 10px;
 }
 
 .first-section {
   background-color: violet;
-  border: 1px solid violet;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   border-bottom-left-radius: 5px;
@@ -38,7 +36,7 @@ body {
 
 .user-status {
   margin-top: 10px;
-  border: 1px solid black;
+  padding-bottom: 5px;
   justify-content: space-between;
   display: flex;
   align-items: center;
@@ -71,7 +69,7 @@ body {
 .user-details {
   width: 120px;
   height: 40px;
-  border: 1px solid red;
+  
 }
 
 .user-name {
@@ -84,16 +82,13 @@ body {
 }
 
 .second-section {
-    padding: 10px 10px;
-    
-    
+  padding: 10px 10px;
 }
 
 .second-section div {
     margin-bottom: 5px;
 }
 
-.second-section
 
 .dog-img {
     width: 40px;
