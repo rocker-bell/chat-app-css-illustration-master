@@ -1,42 +1,119 @@
-/*
-    ==============================================
-                ****** RESET ******
-    ==============================================
-*/
 body {
-  margin: 0;
+  width: 100%;
 }
 
-:root {
-  --color-red: #f42;
-  --bg-color-red: #f42;
+.mobile-container {
+  width: 280px;
+  height: 450px;
+  background-color: #ccc;
+  border-radius: 10px;
 }
 
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+.user-container {
+  margin: auto;
+  width: 250px;
+  height: 400px;
+  background-color: #ccc;
+  border: 1px solid violet;
+  border-radius: 10px;
 }
 
-ul {
-  list-style: none;
+.first-section {
+  background-color: violet;
+  border: 1px solid violet;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
-a {
-  text-decoration: none;
-  color: white;
+.white-space {
+  margin: 0 auto;
+  background-color: white;
+  width: 150px;
+  height: 25px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
-a:hover {
-  color: #333;
+.user-status {
+  margin-top: 10px;
+  border: 1px solid black;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  height: 40px;
 }
 
-/*
-    ==============================================
-                ****** GLOBAL ******
-    ==============================================
-*/
+.left-status {
+  align-items: center;
+}
+
+.left-status div {
+  padding: 0 5px;
+}
+
+.right-status {
+  padding: 0 5px;
+}
+
+.fas {
+  color: #fff;
+}
+
+.user-image {
+  border: 1px solid #fff;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.user-details {
+  width: 120px;
+  height: 40px;
+  border: 1px solid red;
+}
+
+.user-name {
+  font-size: 15px;
+}
+
+.user-availability {
+  font-size: 10px;
+  top: 20px;
+}
+
+.second-section {
+    padding: 10px 10px;
+    
+    
+}
+
+.second-section div {
+    margin-bottom: 5px;
+}
+
+.second-section
+
+.dog-img {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.message-left {
+    float: left;
+    border: 1px solid #ccc;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.message-right {
+    float: right;
+    border: 1px solid #ccc;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}

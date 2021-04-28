@@ -1,18 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel='icon' href="#">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
-  <link rel="stylesheet" href="style.css">
-  <title>Document</title>
-</head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+  
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
 <body>
 
-  <h1>hello world</h1>
-</body>
+<main class="container-fluid main-section">
+<div class="mobile-container shadow  bg-white">
+  <div class="user-container  shadow">
+    <div class="first-section">\
+      <div class="white-space"></div>
+      <div class="user-status ">
+      <div class="left-status d-flex">
+      <div class="icon-container">
+      <a  class="user-icon"><i class="fas fa-chevron-left"></i></a>
+      </div>
+      <div class="image-container">
+        <img src="/chat-app-css-illustration-master/images/avatar.jpg" alt="userimage" class="user-image"> 
+      </div>
+      <div class="user-details position-relative">
+        <p class="user-name">Samuel Green</p>
+        <p class="user-availability text-secondary position-absolute">Available to Walk</p> 
+      </div>
+      </div>
+      <div class="right-status">
+        <a  class="user-icon"><i class="fas fa-ellipsis-v"></i></a>
+      </div>
+    </div>
 
+  <div class="second-section bg-white">
+      <div class="message first-message message-left">
+      That sounds great. I’d be happy with that.</div>
+      <div class="message second-message message-left">
+      Could you send over some pictures of your dog, please?
+    </div>
+
+    <div class="dog-pictures message-right">
+      <img src="/chat-app-css-illustration-master/images\dog-image-1.jpg"  class="dog-img" alt="first-image">
+      <img src="/chat-app-css-illustration-master/images\dog-image-2.jpg" class="dog-img" alt="second-image">
+      <img src="/chat-app-css-illustration-master/images\dog-image-3.jpg" class="dog-img" alt="third-image">
+    </div>
+      
+    <div class="message third-message message-right">
+      Here are a few pictures. She’s a happy girl!
+    </div>
+
+    <div class="message forth-message message-right">
+      Can you make it? 
+    </div>  
+      
+    <div class="message forth-message message-left">
+      She looks so happy! The time we discussed works. How long shall I take her out for? 
+    </div>
+    
+      <div class="message fifth-message message-left">
+        <a class="message-icon"><i class="fal fa-circle"></i></a>
+        <p> 30 minute walk </p>
+        <p>$29</p>
+      </div>
+      
+      <div class="message fifth-message message-left">
+        <a class="message-icon"><i class="fal fa-circle"></i></a>
+        <p> 1 hour walk </p>
+        <p>$49</p>
+      </div>
+      
+        <div class="send-message">
+          <p>type message...</p>
+          <a class="send-message-icon"><i class="fas fa-chevron-circle-right"></i></a>
+        </div>
+      </div>
+      </div>
+  
+  
+  </div>
+
+</div>
+
+
+
+<div class="Simple-booking-caption">
+  Simple booking 
+
+
+  Stay in touch with our dog walkers through the chat interface. This makes it easy to 
+  discuss arrangements and make bookings. Once the walk has been completed you can rate 
+  your walker and book again all through the chat.
+</div>
+
+</main>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
 </html>
