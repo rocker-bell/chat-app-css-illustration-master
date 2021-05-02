@@ -3,7 +3,15 @@ body {
   background-color: hsl(270, 20%, 96%);
 }
 
+main {
+  margin: 0;
+  width: 100%;
+}
+
 .mobile-container {
+  top: 35px;
+  left: 20px;
+  right: 20px;
   width: 350px;
   height: 750px;
   background-color: #ccc;
@@ -38,6 +46,17 @@ body {
   height: 25px;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
+}
+
+.user-name {
+  color: hsl(0, 0%, 100%);
+  font-size: 15px;
+}
+
+.user-availability {
+  color: hsl(0, 0%, 100%);
+  font-size: 10px;
+  top: 20px;
 }
 
 .user-status {
@@ -75,16 +94,6 @@ body {
 .user-details {
   width: 120px;
   height: 40px;
-  
-}
-
-.user-name {
-  font-size: 15px;
-}
-
-.user-availability {
-  font-size: 10px;
-  top: 20px;
 }
 
 .second-section {
@@ -97,15 +106,14 @@ body {
 }
 
 .second-section div {
-    margin-bottom: 5px;
+  margin-bottom: 5px;
 }
 
-
 .dog-img {
-    width: 60px;
-    height: 60px;
-    border: 1px solid #ccc;
-    border-radius: 10px;
+  width: 60px;
+  height: 60px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
 }
 
 .dog-pictures {
@@ -113,19 +121,20 @@ body {
 }
 
 .message-left {
-    float: left;
-    border: 1px solid #ccc;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
+  background-color: hsl(278, 25%, 94%);
+  float: left;
+  border: 1px solid #ccc;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 .message-right {
-    float: right;
-    border: 1px solid #ccc;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
+  float: right;
+  border: 1px solid #ccc;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 
 .message {
@@ -145,21 +154,29 @@ body {
 }
 
 .message-left-color {
-  color: hsl(276, 55%, 52%)
+  color: hsl(276, 55%, 52%);
 }
 
 .fifth-message {
-  background-image: linear-gradient(to right, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+  background-image: linear-gradient(
+    to right,
+    hsl(293, 100%, 63%),
+    hsl(264, 100%, 61%)
+  );
 }
 
 .sixth-message {
-  background-image: linear-gradient(to right, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+  background-image: linear-gradient(
+    to right,
+    hsl(293, 100%, 63%),
+    hsl(264, 100%, 61%)
+  );
   top: 505px;
   justify-content: space-around;
 }
 
 .send-message {
-  padding:0 5px;
+  padding: 0 5px;
   background-color: #fff;
   text-align: center;
   justify-content: space-between;
@@ -181,4 +198,13 @@ body {
 
 .main-heading {
   color: hsl(271, 36%, 24%);
+}
+
+.left-box {
+  margin: 0;
+  background-image: linear-gradient(hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+  width: 40%;
+  height: 55rem;
+  border-bottom-left-radius: 150px;
+  border-bottom-right-radius: 150px;
 }
