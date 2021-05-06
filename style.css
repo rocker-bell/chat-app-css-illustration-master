@@ -17,6 +17,7 @@ main {
   background-color: #ccc;
   border-radius: 10px;
   margin-top: 10px;
+  margin-bottom: px;
 }
 
 .user-container {
@@ -198,13 +199,26 @@ main {
 
 .main-heading {
   color: hsl(271, 36%, 24%);
+  padding-top: 180px;
 }
 
 .left-box {
-  margin: 0;
+  z-index: -1;
   background-image: linear-gradient(hsl(293, 100%, 63%), hsl(264, 100%, 61%));
-  width: 40%;
-  height: 55rem;
+  width: 22%;
+  height: 41rem;
   border-bottom-left-radius: 150px;
   border-bottom-right-radius: 150px;
+}
+
+.right-box {
+  z-index:-1;
+  width: 20%;
+  height: 38rem;
+  background-color: hsl(278, 25%, 94%);
+  border-top-left-radius: 199px;
+  width: 20%;
+  position: absolute;
+  top: 47%;
+  margin-left: 80%;
 }
