@@ -9,15 +9,15 @@ main {
 }
 
 .mobile-container {
-  top: 35px;
-  left: 20px;
-  right: 20px;
+  top: 10%;
+  left: 10%;
   width: 350px;
   height: 750px;
   background-color: #ccc;
   border-radius: 9%;
   margin-top: 10px;
-  margin-bottom: px;
+  transform: translate(-7%, -10%);
+  
 }
 
 .user-container {
