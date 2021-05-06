@@ -4,8 +4,9 @@ body {
 }
 
 main {
-  margin: 0;
+  margin: 0 auto;
   width: 100%;
+  
 }
 
 .mobile-container {
@@ -219,4 +220,12 @@ main {
   position: absolute;
   top: 47%;
   margin-left: 80%;
+}
+
+@media  screen and (min-width: 768px;) {
+  .main-section {
+    display: grid;
+    grid-template-columns: 25% 25%;
+  }
+  
 }
